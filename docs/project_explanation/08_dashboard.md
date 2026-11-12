@@ -16,5 +16,6 @@ Dự án xuất ra 2 biểu đồ trực quan hóa cốt lõi lưu tại `report
 - **Mục đích Business:** Trực quan hóa vị trí của 93,358 khách hàng trên mặt phẳng 2D xem các cụm có bị đè lên nhau không.
 - **Insight:** 
   - 4 màu sắc phân tách thành 4 vùng không gian rõ rệt.
-  - Cụm VIP (`Cluster_0`) nằm tách biệt hẳn ở nhóm chi tiêu cao.
-  - Cụm Khách hàng giận dữ (`Cluster_2`) tách ra nhờ trục chỉ số đánh giá sao thấp và độ trễ cao.
+  - Cụm `Cluster_0` (`Core Budget Shoppers`) chiếm tỷ trọng lớn (~44%) ở mức chi tiêu phổ thông.
+  - Cụm `Cluster_1` (`Dissatisfied`) & Cụm `Cluster_3` (`Severe Delay & At-Risk`) phân tách rõ nét do điểm CSAT thấp và số ngày trễ đơn cao.
+  - Cụm `Cluster_2` (`High-Value Installment Spenders`) nằm tách biệt ở phân vùng giá trị đơn hàng cao và kỳ trả góp lớn.
